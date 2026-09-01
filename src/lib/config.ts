@@ -2,7 +2,7 @@
 export const SITE_URL = 'https://changelog.whatisedible.com';
 export const SITE_NAME = "What's new in Edible";
 export const SITE_DESCRIPTION =
-  'Product updates, news and milestones from Edible — menus that speak allergies and diets.';
+  'Product updates, news and milestones from Edible, the menu that speaks allergies and diets.';
 export const MAIN_SITE = 'https://whatisedible.com';
 export const FORUM_URL = 'https://forum.whatisedible.com';
 /** Where "Discuss on the forum" points until per-entry topics are wired up. */

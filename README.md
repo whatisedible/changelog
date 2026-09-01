@@ -33,7 +33,9 @@ Everything else — the website, the forum, the apps, the newsletter — reads f
 | `image`   | no       | Path to a picture in `static/images/`, e.g. `/images/matrix.png`. |
 | `note`    | no       | A short aside from the team, shown in a highlighted box under the entry. |
 
-The body is ordinary markdown — as long or short as you like. Longer thinking belongs on the blog; link to it.
+The body is ordinary markdown, as long or short as you like. Longer thinking belongs on the blog; link to it.
+
+House style is in [STYLE.md](STYLE.md). `npm run style` checks it (em dashes fail the build, the rest warn).
 
 ### Tagging rule
 

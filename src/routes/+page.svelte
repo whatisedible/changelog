@@ -67,7 +67,7 @@
 </div>
 
 {#if shown.length === 0}
-  <p class="empty">{emptyLabel ? `No entries tagged ${emptyLabel} yet.` : 'Nothing here yet — the first entries are on their way.'}</p>
+  <p class="empty">{emptyLabel ? `No entries tagged ${emptyLabel} yet.` : 'Nothing here yet. The first entries are on their way.'}</p>
 {:else}
   <ol class="entries">
     {#each shown as e (e.slug)}

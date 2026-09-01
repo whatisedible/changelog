@@ -2,12 +2,15 @@
   "name": "edible-changelog",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "style": "node scripts/style-check.mjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",
