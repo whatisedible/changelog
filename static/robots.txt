@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://changelog.whatisedible.com/sitemap.xml
