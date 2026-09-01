@@ -6,6 +6,6 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({ pages: 'build', assets: 'build', fallback: undefined, strict: true }),
-    prerender: { entries: ['*'], handleHttpError: 'fail' }
+    prerender: { entries: ['*'], handleHttpError: 'fail', handleUnseenRoutes: 'ignore' }
   }
 };
