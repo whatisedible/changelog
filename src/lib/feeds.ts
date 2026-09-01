@@ -4,10 +4,10 @@ import type { Entry } from './entries';
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-export function rss(items: Entry[], opts: { title: string; path: string }): string {
+export function rss(items: Entry[], opts: { title: string; path: string; limit?: number }): string {
   const now = new Date().toUTCString();
   const body = items
-    .slice(0, FEED_LIMIT)
+    .slice(0, opts.limit ?? FEED_LIMIT)
     .map(
       (e) => `    <item>
       <title>${esc(e.title)}</title>

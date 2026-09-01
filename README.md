@@ -48,7 +48,7 @@ Tag by **who should be told**, not where the code lives. A change to the menu di
 |--------|--------------|
 | Visitors | `/` (filter by topic and app, `?topic=product&app=builder` links work), `/<slug>` |
 | whatisedible.com | `/latest.json` (Framer Fetch) and a "What's new" link |
-| Forum News Feed | `/feed.xml`, polled — each entry becomes a topic to discuss |
+| Forum News Feed | `/feeds/forum.xml` (newest 5), polled: each entry becomes a topic to discuss |
 | Menu Builder | `/feeds/builder.json` |
 | Eat Hub | `/feeds/eat-hub.json` |
 | Anyone | `/feed.xml`, `/feeds/<app>.xml`, `/all.json`, `/sitemap.xml` |

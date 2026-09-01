@@ -8,6 +8,8 @@ export const FORUM_URL = 'https://forum.whatisedible.com';
 /** Where "Discuss on the forum" points until per-entry topics are wired up. */
 export const FORUM_DISCUSS_URL = `${FORUM_URL}/c/news-feed/5`;
 export const FORUM_SUGGEST_URL = `${FORUM_URL}/c/feedback/13`;
+/** The Suggestion Box as a board: untagged · planned · building · shipped. */
+export const FORUM_ROADMAP_URL = `${FORUM_URL}/c/feedback/13?board=default`;
 
 /** The five fixed topics. Every entry has exactly one. */
 export const TOPICS = {
@@ -31,3 +33,5 @@ export type App = keyof typeof APPS;
 
 /** How many entries the JSON/RSS feeds carry. */
 export const FEED_LIMIT = 20;
+/** The forum polls a shorter feed so its first poll doesn't create twenty topics. */
+export const FORUM_FEED_LIMIT = 5;

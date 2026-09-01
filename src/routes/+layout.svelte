@@ -1,6 +1,6 @@
 <script lang="ts">
   import '../app.css';
-  import { FORUM_SUGGEST_URL, FORUM_URL, MAIN_SITE, SITE_NAME, SITE_URL } from '$lib/config';
+  import { FORUM_ROADMAP_URL, FORUM_SUGGEST_URL, FORUM_URL, MAIN_SITE, SITE_NAME, SITE_URL } from '$lib/config';
   let { children } = $props();
 </script>
 
@@ -18,6 +18,7 @@
     </picture>
   </a>
   <nav>
+    <a href={FORUM_ROADMAP_URL}>Roadmap</a>
     <a href={FORUM_SUGGEST_URL}>Suggest a feature</a>
     <a href={FORUM_URL}>Forum</a>
   </nav>
