@@ -1,0 +1,23 @@
+{
+  "site": "What's new in Edible",
+  "url": "https://changelog.whatisedible.com",
+  "app": "site",
+  "generated": "2026-09-04T09:52:51.793Z",
+  "count": 1,
+  "entries": [
+    {
+      "slug": "eat-hub-is-live",
+      "url": "https://changelog.whatisedible.com/eat-hub-is-live",
+      "title": "Eat Hub is live, in beta",
+      "date": "2026-07-23",
+      "topic": "milestones",
+      "apps": [
+        "eat-hub",
+        "site"
+      ],
+      "summary": "Our app for diners with allergies and diets is out at eat.whatisedible.com. Build a profile, snap menus, and share your profile with the people who cook for you. It's a beta: snaps are capped per…",
+      "image": null,
+      "html": "<p>Our app for diners with allergies and diets is out at <a href=\"https://eat.whatisedible.com\">eat.whatisedible.com</a>. Build a profile, snap menus, and share your profile with the people who cook for you. It&#39;s a beta: snaps are capped per month while we learn what people need.</p>\n"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+import { APPS, SITE_DESCRIPTION, SITE_NAME, TOPICS } from '../lib/config';
+import { entries, formatDate } from '../lib/entries';
+---
+
+<Base title={SITE_NAME} description={SITE_DESCRIPTION}>
+  <h1>What's new</h1>
+  <p class="lede">{SITE_DESCRIPTION}</p>
+
+  <div class="filters" aria-label="Filter entries">
+    <div class="chips" role="group" aria-label="Topic">
+      <button class="active" data-kind="topic" data-value="all">All</button>
+      {Object.entries(TOPICS).map(([key, label]) => (
+        <button data-kind="topic" data-value={key}>{label}</button>
+      ))}
+    </div>
+    <div class="chips secondary" role="group" aria-label="App">
+      {Object.entries(APPS).map(([key, meta]) => (
+        <button data-kind="app" data-value={key}>{meta.label}</button>
+      ))}
+    </div>
+  </div>
+
+  <p class="empty" hidden={entries.length > 0}>Nothing here yet. The first entries are on their way.</p>
+
+  <ol class="entries">
+    {entries.map((e) => (
+      <li class="card" data-topic={e.topic} data-apps={e.apps.join(' ')}>
+        <div class="meta">
+          <time datetime={e.date}>{formatDate(e.date)}</time>
+          <span class="chip topic">{TOPICS[e.topic]}</span>
+          {e.apps.map((a) => (
+            <span class="chip app">{APPS[a].label}</span>
+          ))}
+        </div>
+        <h2><a href={`/${e.slug}`}>{e.title}</a></h2>
+        <p>{e.summary}</p>
+        {e.image && <img src={e.image} alt="" loading="lazy" />}
+      </li>
+    ))}
+  </ol>
+</Base>
+
+<script>
+  const state = { topic: 'all', app: 'all' };
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.chips button')];
+  const cards = [...document.querySelectorAll<HTMLLIElement>('.entries .card')];
+  const empty = document.querySelector<HTMLParagraphElement>('.empty')!;
+
+  function apply() {
+    let shown = 0;
+    for (const card of cards) {
+      const okTopic = state.topic === 'all' || card.dataset.topic === state.topic;
+      const okApp = state.app === 'all' || (card.dataset.apps ?? '').split(' ').includes(state.app);
+      card.hidden = !(okTopic && okApp);
+      if (!card.hidden) shown++;
+    }
+    const labels: string[] = [];
+    for (const b of buttons) {
+      const active =
+        b.dataset.value === (b.dataset.kind === 'topic' ? state.topic : state.app) &&
+        (b.dataset.value !== 'all' || b.dataset.kind === 'topic');
+      b.classList.toggle('active', active);
+      if (active && b.dataset.value !== 'all') labels.push(b.textContent ?? '');
+    }
+    empty.hidden = shown > 0 || cards.length === 0;
+    empty.textContent = labels.length
+      ? `No entries tagged ${labels.join(' · ')} yet.`
+      : 'Nothing here yet. The first entries are on their way.';
+    const p = new URLSearchParams();
+    if (state.topic !== 'all') p.set('topic', state.topic);
+    if (state.app !== 'all') p.set('app', state.app);
+    history.replaceState(null, '', p.size ? `?${p}` : location.pathname);
+  }
+
+  for (const b of buttons)
+    b.addEventListener('click', () => {
+      const kind = b.dataset.kind as 'topic' | 'app';
+      const value = b.dataset.value!;
+      state[kind] = state[kind] === value ? 'all' : value;
+      apply();
+    });
+
+  const init = new URLSearchParams(location.search);
+  const t = init.get('topic');
+  const a = init.get('app');
+  if (t && buttons.some((b) => b.dataset.kind === 'topic' && b.dataset.value === t)) state.topic = t;
+  if (a && buttons.some((b) => b.dataset.kind === 'app' && b.dataset.value === a)) state.app = a;
+  if (state.topic !== 'all' || state.app !== 'all') apply();
+</script>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What's new in Edible — Menu Builder</title>
+    <link>https://changelog.whatisedible.com</link>
+    <atom:link href="https://changelog.whatisedible.com/feeds/builder.xml" rel="self" type="application/rss+xml" />
+    <description>Product updates, news and milestones from Edible, the menu that speaks allergies and diets.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2026 09:52:51 GMT</lastBuildDate>
+    <item>
+      <title>Nightly backups, checked every night</title>
+      <link>https://changelog.whatisedible.com/nightly-verified-backups</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/nightly-verified-backups</guid>
+      <pubDate>Mon, 31 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <category>Eat Hub</category>
+      <description><![CDATA[<p>Menu data and Eat Hub accounts are now backed up every night to two separate providers in the EU. Each night&#39;s backup is test-restored before older copies are pruned, so we know it works, not just that it ran.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Published menus are served from the edge</title>
+      <link>https://changelog.whatisedible.com/menus-served-from-the-edge</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/menus-served-from-the-edge</guid>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Your embedded menu is now served from a published copy held close to your visitors. It loads fast, and it keeps working even if our database is having a bad day.</p>
+]]></description>
+    </item>
+    <item>
+      <title>The embedded menu stays put</title>
+      <link>https://changelog.whatisedible.com/embedded-menu-stays-put</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/embedded-menu-stays-put</guid>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Opening a dish&#39;s allergen details on a filtered menu no longer jumps the page back to the top.</p>
+]]></description>
+    </item>
+    <item>
+      <title>See your menu working before you sign up</title>
+      <link>https://changelog.whatisedible.com/see-your-menu-before-you-sign-up</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/see-your-menu-before-you-sign-up</guid>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>When we send you a demo link, it now opens your own menu live as an Edible menu, with plans a tap away. &quot;Get started&quot; drops that menu straight into your editor, with your business name and region already filled in.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Faster uploads, and multi-page PDFs work</title>
+      <link>https://changelog.whatisedible.com/faster-uploads-multi-page-pdfs</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/faster-uploads-multi-page-pdfs</guid>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Eat Hub</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Submitting menu photos comes back in a fraction of the time it used to, especially when you send several at once.</p>
+<p>Multi-page PDF menus, which could previously fail part-way, are now read page by page and merged into one menu. A section that runs across a page break stays one section.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Location and device data is stripped from your menu photos</title>
+      <link>https://changelog.whatisedible.com/location-data-stripped-from-photos</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/location-data-stripped-from-photos</guid>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Eat Hub</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Phones tuck location and device details into every photo. When you upload a menu photo, we strip those before it&#39;s stored. The photo is kept for reading the menu, nothing more.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Clearer allergen badges</title>
+      <link>https://changelog.whatisedible.com/clearer-allergen-badges</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/clearer-allergen-badges</guid>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Eat Hub</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>One badge per allergen family, never two for the same category on the same dish.</p>
+<p>Matching got stricter in the right direction too: if your profile says &quot;gluten&quot;, dishes marked wheat, rye, barley or oats are caught as well, so nothing slips through on a technicality.</p>
+]]></description>
+    </item>
+    <item>
+      <title>PDF menus, and plain words when a scan fails</title>
+      <link>https://changelog.whatisedible.com/pdf-menus-and-plain-error-messages</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/pdf-menus-and-plain-error-messages</guid>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <category>Eat Hub</category>
+      <description><![CDATA[<p>You can now upload PDFs as well as photos: JPG, PNG or PDF, up to 5MB each.</p>
+<p>When a menu can&#39;t be read, you get a plain explanation: the menu was unreadable, we&#39;re busy, the daily limit was reached, you&#39;re offline, or it timed out. No more technical errors or endless spinners, and a direct link to support if you need it.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Plans and pricing are live</title>
+      <link>https://changelog.whatisedible.com/plans-and-pricing</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/plans-and-pricing</guid>
+      <pubDate>Tue, 09 Jun 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Edible now has plans: a free tier to get going, and a Pro plan for venues that want their menu in their own branding. You can upgrade from inside the builder.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Your menu in your colours and fonts</title>
+      <link>https://changelog.whatisedible.com/your-menu-in-your-brand</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/your-menu-in-your-brand</guid>
+      <pubDate>Tue, 09 Jun 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <category>Menu &amp; embed</category>
+      <description><![CDATA[<p>Menus can now carry your own branding. Pick your colours and fonts in the builder and the menu follows, including the version embedded on your website.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Your allergen matrix, built from your menu</title>
+      <link>https://changelog.whatisedible.com/allergen-matrix-in-the-builder</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/allergen-matrix-in-the-builder</guid>
+      <pubDate>Mon, 27 Apr 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>As you build a menu, Edible now shows the dietary spreadsheet (the allergen matrix venues are asked to keep), generated from what you&#39;ve entered. There&#39;s no separate document to keep in step with the menu: change a dish, and the matrix follows.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Try Edible with a photo of your menu</title>
+      <link>https://changelog.whatisedible.com/try-edible-with-a-photo</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/try-edible-with-a-photo</guid>
+      <pubDate>Fri, 03 Apr 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>You can now try Edible before creating an account. Photograph your menu and we turn it into a live, filterable menu you can explore straight away. It is the same thing your diners would see.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Signing up is simpler</title>
+      <link>https://changelog.whatisedible.com/simpler-sign-up</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/simpler-sign-up</guid>
+      <pubDate>Fri, 27 Mar 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Creating a Menu Builder account is now a shorter, clearer flow, with fewer steps between you and your first published menu.</p>
+]]></description>
+    </item>
+    <item>
+      <title>The menu page got a rebuild</title>
+      <link>https://changelog.whatisedible.com/menu-page-rebuilt</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/menu-page-rebuilt</guid>
+      <pubDate>Tue, 17 Mar 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>The page diners see when they open an Edible menu was rebuilt and polished: a cleaner layout, easier reading on a phone, and a tidier embed when the menu sits inside your own website.</p>
+]]></description>
+    </item>
+  </channel>
+</rss>
