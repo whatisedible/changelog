@@ -1,0 +1,94 @@
+{
+  "site": "What's new in Edible",
+  "url": "https://changelog.whatisedible.com",
+  "app": "menu",
+  "generated": "2026-09-04T09:52:51.792Z",
+  "count": 6,
+  "entries": [
+    {
+      "slug": "menus-served-from-the-edge",
+      "url": "https://changelog.whatisedible.com/menus-served-from-the-edge",
+      "title": "Published menus are served from the edge",
+      "date": "2026-08-21",
+      "topic": "product",
+      "apps": [
+        "menu",
+        "builder"
+      ],
+      "summary": "Your embedded menu is now served from a published copy held close to your visitors. It loads fast, and it keeps working even if our database is having a bad day.",
+      "image": null,
+      "html": "<p>Your embedded menu is now served from a published copy held close to your visitors. It loads fast, and it keeps working even if our database is having a bad day.</p>\n"
+    },
+    {
+      "slug": "embedded-menu-stays-put",
+      "url": "https://changelog.whatisedible.com/embedded-menu-stays-put",
+      "title": "The embedded menu stays put",
+      "date": "2026-08-13",
+      "topic": "product",
+      "apps": [
+        "menu",
+        "builder"
+      ],
+      "summary": "Opening a dish's allergen details on a filtered menu no longer jumps the page back to the top.",
+      "image": null,
+      "html": "<p>Opening a dish&#39;s allergen details on a filtered menu no longer jumps the page back to the top.</p>\n"
+    },
+    {
+      "slug": "crustaceans-and-molluscs",
+      "url": "https://changelog.whatisedible.com/crustaceans-and-molluscs",
+      "title": "Crustaceans and molluscs are now told apart",
+      "date": "2026-08-04",
+      "topic": "product",
+      "apps": [
+        "eat-hub",
+        "menu"
+      ],
+      "summary": "\"Shellfish\" used to be one bucket. Now a menu that names prawns is tracked as crustaceans and one that names mussels as molluscs, and tracking one never implies the other is covered. Where a menu…",
+      "image": null,
+      "html": "<p>&quot;Shellfish&quot; used to be one bucket. Now a menu that names prawns is tracked as crustaceans and one that names mussels as molluscs, and tracking one never implies the other is covered. Where a menu only says &quot;shellfish&quot;, we keep it general and tell you to ask.</p>\n"
+    },
+    {
+      "slug": "clearer-allergen-badges",
+      "url": "https://changelog.whatisedible.com/clearer-allergen-badges",
+      "title": "Clearer allergen badges",
+      "date": "2026-07-15",
+      "topic": "product",
+      "apps": [
+        "menu",
+        "eat-hub",
+        "builder"
+      ],
+      "summary": "One badge per allergen family, never two for the same category on the same dish.",
+      "image": null,
+      "html": "<p>One badge per allergen family, never two for the same category on the same dish.</p>\n<p>Matching got stricter in the right direction too: if your profile says &quot;gluten&quot;, dishes marked wheat, rye, barley or oats are caught as well, so nothing slips through on a technicality.</p>\n"
+    },
+    {
+      "slug": "your-menu-in-your-brand",
+      "url": "https://changelog.whatisedible.com/your-menu-in-your-brand",
+      "title": "Your menu in your colours and fonts",
+      "date": "2026-06-09",
+      "topic": "product",
+      "apps": [
+        "builder",
+        "menu"
+      ],
+      "summary": "Menus can now carry your own branding. Pick your colours and fonts in the builder and the menu follows, including the version embedded on your website.",
+      "image": null,
+      "html": "<p>Menus can now carry your own branding. Pick your colours and fonts in the builder and the menu follows, including the version embedded on your website.</p>\n"
+    },
+    {
+      "slug": "menu-page-rebuilt",
+      "url": "https://changelog.whatisedible.com/menu-page-rebuilt",
+      "title": "The menu page got a rebuild",
+      "date": "2026-03-17",
+      "topic": "product",
+      "apps": [
+        "menu",
+        "builder"
+      ],
+      "summary": "The page diners see when they open an Edible menu was rebuilt and polished: a cleaner layout, easier reading on a phone, and a tidier embed when the menu sits inside your own website.",
+      "image": null,
+      "html": "<p>The page diners see when they open an Edible menu was rebuilt and polished: a cleaner layout, easier reading on a phone, and a tidier embed when the menu sits inside your own website.</p>\n"
+    }
+  ]
+}

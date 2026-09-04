@@ -1,0 +1,11 @@
+/latest.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+/all.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+/feeds/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+/feed.xml
+  Cache-Control: public, max-age=300

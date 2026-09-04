@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What's new in Edible (forum feed)</title>
+    <link>https://changelog.whatisedible.com</link>
+    <atom:link href="https://changelog.whatisedible.com/feeds/forum.xml" rel="self" type="application/rss+xml" />
+    <description>Product updates, news and milestones from Edible, the menu that speaks allergies and diets.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2026 09:52:51 GMT</lastBuildDate>
+    <item>
+      <title>Nightly backups, checked every night</title>
+      <link>https://changelog.whatisedible.com/nightly-verified-backups</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/nightly-verified-backups</guid>
+      <pubDate>Mon, 31 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <category>Eat Hub</category>
+      <description><![CDATA[<p>Menu data and Eat Hub accounts are now backed up every night to two separate providers in the EU. Each night&#39;s backup is test-restored before older copies are pruned, so we know it works, not just that it ran.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Published menus are served from the edge</title>
+      <link>https://changelog.whatisedible.com/menus-served-from-the-edge</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/menus-served-from-the-edge</guid>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Your embedded menu is now served from a published copy held close to your visitors. It loads fast, and it keeps working even if our database is having a bad day.</p>
+]]></description>
+    </item>
+    <item>
+      <title>The embedded menu stays put</title>
+      <link>https://changelog.whatisedible.com/embedded-menu-stays-put</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/embedded-menu-stays-put</guid>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Opening a dish&#39;s allergen details on a filtered menu no longer jumps the page back to the top.</p>
+]]></description>
+    </item>
+    <item>
+      <title>See your menu working before you sign up</title>
+      <link>https://changelog.whatisedible.com/see-your-menu-before-you-sign-up</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/see-your-menu-before-you-sign-up</guid>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>When we send you a demo link, it now opens your own menu live as an Edible menu, with plans a tap away. &quot;Get started&quot; drops that menu straight into your editor, with your business name and region already filled in.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Faster uploads, and multi-page PDFs work</title>
+      <link>https://changelog.whatisedible.com/faster-uploads-multi-page-pdfs</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/faster-uploads-multi-page-pdfs</guid>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Eat Hub</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Submitting menu photos comes back in a fraction of the time it used to, especially when you send several at once.</p>
+<p>Multi-page PDF menus, which could previously fail part-way, are now read page by page and merged into one menu. A section that runs across a page break stays one section.</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

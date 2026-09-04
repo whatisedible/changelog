@@ -65,9 +65,11 @@ Alex edits the wording and merges. That's the whole process — nothing else to 
 
 ```
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # writes ./build, fails on a bad entry header
+npm run dev      # http://localhost:4321
+npm run build    # writes ./dist, fails on a bad entry header
 ```
+
+The site is [Astro](https://astro.build), the house stack for our small sites.
 
 ## Deploy
 

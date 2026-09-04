@@ -1,0 +1,54 @@
+---
+import '../app.css';
+import { FORUM_ROADMAP_URL, FORUM_SUGGEST_URL, FORUM_URL, MAIN_SITE, SITE_NAME, SITE_URL } from '../lib/config';
+
+interface Props { title: string; description: string; image?: string }
+const { title, description, image } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#130805" media="(prefers-color-scheme: dark)" />
+    <link rel="preload" href="/fonts/GT-Walsheim-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="alternate" type="application/rss+xml" title={SITE_NAME} href="/feed.xml" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image ?? `${SITE_URL}/favicon.png`} />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href={MAIN_SITE} aria-label="Edible home">
+        <picture>
+          <source srcset="/logo-cream.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo.svg" alt="Edible" width="100" height="31" />
+        </picture>
+      </a>
+      <nav>
+        <a href={FORUM_ROADMAP_URL}>Roadmap</a>
+        <a href={FORUM_SUGGEST_URL}>Suggest a feature</a>
+        <a href={FORUM_URL}>Forum</a>
+      </nav>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="site-footer">
+      <span>Menus that speak allergies and diets.</span>
+      <span>
+        <a href="/feed.xml">RSS</a> · <a href="/latest.json">JSON</a> ·
+        <a href="https://github.com/whatisedible/changelog">Source</a>
+      </span>
+    </footer>
+  </body>
+</html>

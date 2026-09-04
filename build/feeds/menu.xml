@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What's new in Edible — Menu &amp; embed</title>
+    <link>https://changelog.whatisedible.com</link>
+    <atom:link href="https://changelog.whatisedible.com/feeds/menu.xml" rel="self" type="application/rss+xml" />
+    <description>Product updates, news and milestones from Edible, the menu that speaks allergies and diets.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2026 09:52:51 GMT</lastBuildDate>
+    <item>
+      <title>Published menus are served from the edge</title>
+      <link>https://changelog.whatisedible.com/menus-served-from-the-edge</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/menus-served-from-the-edge</guid>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Your embedded menu is now served from a published copy held close to your visitors. It loads fast, and it keeps working even if our database is having a bad day.</p>
+]]></description>
+    </item>
+    <item>
+      <title>The embedded menu stays put</title>
+      <link>https://changelog.whatisedible.com/embedded-menu-stays-put</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/embedded-menu-stays-put</guid>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>Opening a dish&#39;s allergen details on a filtered menu no longer jumps the page back to the top.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Crustaceans and molluscs are now told apart</title>
+      <link>https://changelog.whatisedible.com/crustaceans-and-molluscs</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/crustaceans-and-molluscs</guid>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Eat Hub</category>
+      <category>Menu &amp; embed</category>
+      <description><![CDATA[<p>&quot;Shellfish&quot; used to be one bucket. Now a menu that names prawns is tracked as crustaceans and one that names mussels as molluscs, and tracking one never implies the other is covered. Where a menu only says &quot;shellfish&quot;, we keep it general and tell you to ask.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Clearer allergen badges</title>
+      <link>https://changelog.whatisedible.com/clearer-allergen-badges</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/clearer-allergen-badges</guid>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Eat Hub</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>One badge per allergen family, never two for the same category on the same dish.</p>
+<p>Matching got stricter in the right direction too: if your profile says &quot;gluten&quot;, dishes marked wheat, rye, barley or oats are caught as well, so nothing slips through on a technicality.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Your menu in your colours and fonts</title>
+      <link>https://changelog.whatisedible.com/your-menu-in-your-brand</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/your-menu-in-your-brand</guid>
+      <pubDate>Tue, 09 Jun 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu Builder</category>
+      <category>Menu &amp; embed</category>
+      <description><![CDATA[<p>Menus can now carry your own branding. Pick your colours and fonts in the builder and the menu follows, including the version embedded on your website.</p>
+]]></description>
+    </item>
+    <item>
+      <title>The menu page got a rebuild</title>
+      <link>https://changelog.whatisedible.com/menu-page-rebuilt</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/menu-page-rebuilt</guid>
+      <pubDate>Tue, 17 Mar 2026 09:00:00 GMT</pubDate>
+      <category>Product</category>
+      <category>Menu &amp; embed</category>
+      <category>Menu Builder</category>
+      <description><![CDATA[<p>The page diners see when they open an Edible menu was rebuilt and polished: a cleaner layout, easier reading on a phone, and a tidier embed when the menu sits inside your own website.</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What's new in Edible — whatisedible.com</title>
+    <link>https://changelog.whatisedible.com</link>
+    <atom:link href="https://changelog.whatisedible.com/feeds/site.xml" rel="self" type="application/rss+xml" />
+    <description>Product updates, news and milestones from Edible, the menu that speaks allergies and diets.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2026 09:52:51 GMT</lastBuildDate>
+    <item>
+      <title>Eat Hub is live, in beta</title>
+      <link>https://changelog.whatisedible.com/eat-hub-is-live</link>
+      <guid isPermaLink="true">https://changelog.whatisedible.com/eat-hub-is-live</guid>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 GMT</pubDate>
+      <category>Milestones</category>
+      <category>Eat Hub</category>
+      <category>whatisedible.com</category>
+      <description><![CDATA[<p>Our app for diners with allergies and diets is out at <a href="https://eat.whatisedible.com">eat.whatisedible.com</a>. Build a profile, snap menus, and share your profile with the people who cook for you. It&#39;s a beta: snaps are capped per month while we learn what people need.</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

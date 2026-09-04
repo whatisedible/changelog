@@ -35,7 +35,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 5abdec7dda1b78a526732549a233aab8
           command: >-
-            pages deploy build --project-name=changelog
+            pages deploy dist --project-name=changelog
             --branch=${{ github.head_ref || github.ref_name }}
             --commit-hash=${{ github.sha }}
 
